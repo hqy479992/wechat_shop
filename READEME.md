@@ -20,4 +20,22 @@
 
     不为空
     git push  origin master
+#### 第二次更新文件提交到仓库
 
+1.进入提交的文件夹中，git add . 或者 git add xxx具体文件名
+2.git commit -m '提交说明'
+3. 拉取远程仓库代码，更新代码
+    git pull 
+4.git push -u origin master  / git push origin master
+
+
+#### 创建分支上传
+
+1.创建
+    git branch dev
+2.切换分支
+    git checkout dev
+3.关联分支
+    git remote add 
+4.将分支上传
+    git push origin dev
